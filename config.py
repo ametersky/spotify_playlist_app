@@ -17,7 +17,7 @@ SPOTIFY_API_URL = '{}/{}'.format(SPOTIFY_API_BASE_URL, API_VERSION)
 # Server-side Parameters
 PORT = int(os.environ.get("PORT", 5000))
 CLIENT_SIDE_URL = 'https://spotify-flask-app.herokuapp.com'
-REDIRECT_URI = '{}:{}/callback/q'.format(CLIENT_SIDE_URL, PORT)
+REDIRECT_URI = '{}/callback/q'.format(CLIENT_SIDE_URL)
 SCOPE = 'playlist-modify-public playlist-modify-private'
 
 AUTH_QUERY_PARAMETERS = {
