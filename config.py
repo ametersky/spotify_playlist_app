@@ -1,3 +1,5 @@
+import os
+
 APP_SESSION_KEY = 'the horse is a neat color'
 
 CLIENT_ID = '9b1ef622d575468cb033ce88d7d8584f'
