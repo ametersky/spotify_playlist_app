@@ -1,9 +1,9 @@
 import os
 
-APP_SESSION_KEY = 'the horse is a neat color'
+APP_SESSION_KEY = ''
 
-CLIENT_ID = '9b1ef622d575468cb033ce88d7d8584f'
-CLIENT_SECRET = 'f04d2e1d7d99448687b2bc16276238f4'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 
 # Spotify URLS
 SPOTIFY_AUTH_URL = 'https://accounts.spotify.com/authorize'
